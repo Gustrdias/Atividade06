@@ -21,6 +21,10 @@ class ComposerStaticInita4d9ff208e6f0472f41106b4c4aa04ad
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'Tests\\' => 6,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Ctype\\' => 23,
@@ -35,6 +39,10 @@ class ComposerStaticInita4d9ff208e6f0472f41106b4c4aa04ad
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -47,6 +55,10 @@ class ComposerStaticInita4d9ff208e6f0472f41106b4c4aa04ad
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/test',
         ),
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
@@ -67,6 +79,10 @@ class ComposerStaticInita4d9ff208e6f0472f41106b4c4aa04ad
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
